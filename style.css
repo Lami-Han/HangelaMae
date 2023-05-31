@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8;
+    letter-spacing: 1.4px;
+    overflow-x: hidden;
+
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #FFD4D4;
+    padding: 5px;
+    height: 100px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    background-color: #E5E0FF;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar-title h2{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+
+}
+.sidebar ul{   
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sidebar ul li{
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+    padding: 6px;
+}
+
+.sidebar ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.content{
+    margin-left: 380px;
+    margin-right: 5%;
+    margin-top: 45px;
+    color: #000;
+}
+.content h3{
+    font-size: 30px;
+}
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+    margin-left: 0px;
+}
+footer p{
+    color: #fff;
+}
+.examples{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.buttonExamples{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    background-color: royalblue;
+    box-shadow: 5px 10px;
+}
+.buttonExamples:hover{
+    color: white;
+    background-color: black;
+}
+
+p{
+    color: black;
+    margin-left: 400px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+.button-container{
+    position: absolute;
+    bottom: -25vh;
+    right: 100vh;
+}
+
+#example{
+    align-items: center;
+    text-align: center;
+}
+
+.button{
+  font-size: 20px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: palevioletred;
+    box-shadow: 5px 10px;
+
+}
+
+.button:hover{
+    color: white;
+    background-color: black;
+}
+
+.bttn{
+    display: flex;
+    justify-content: center;
+    margin-left:25rem ;
+}
+.multi-arr{
+    position: relative;
+    left: 20%;
+    height: 70vh;
+}
+.multi-tittle{
+    color: black;
+    left: 20%;
+}
+.multi-arr-container{
+    position: relative;
+    left: 26%;
+    width: 30%;
+    background-image: linear-gradient(50deg, #00ffff, #4596ed);
+    border-radius: 50px;
+    height: 65vh;
+}
+.mulit-input{
+    width: 120%;
+    height: 2rem;
+    position: relative;
+    left: -10%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #000;
+}
+.inputInfo{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    gap: 20px;
+}
+.addBTN{
+    position: relative;
+    left: 70%;
+    margin-top: 5%;
+    background-color: #18d11b;
+    width: 100px;
+    height: 3rem;
+    border: none;
+    font-size: 20px;
+}
+.button-method  {
+    position: relative;
+    left: 0%;
+    top: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnFunc{
+    width: 100px;
+    height: 3rem;
+    border: none;
+    font-size: 20px;
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, #ff00f7, #a436c9);
+    transition-property: width;
+    transition-duration: 1s;
+}
+.btnFunc:hover{
+    background-image: linear-gradient(to top, #0095ff, #36a4c9);
+    width: 200px;
+}
+#studentsList{
+    position: absolute;
+    left: 45%;
+    list-style-type: decimal;
+    color: #000;
+}
+
+.content h3{
+    text-align: center;
+}
+
+.content p a{
+    text-underline-offset: 10px;
+}
+
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

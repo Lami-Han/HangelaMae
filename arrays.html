@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMMING LANGUAGE (HTML & JAVASCRIPT)</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type=text/javascript src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+             <h1 class="header-text">Javascript Topics</h1>
+        </div>
+    </header>
+    
+    <div class="main">
+
+        
+        
+        <div class="sidebar">
+
+            <div class="sidebar-title">
+                <h2>JavaScript</h2>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="boxmessage.html">Alert Box</a></li>
+                <li><a href="conditionalstatements.html">Conditional Statements</a></li>
+                <li><a href="loops.html">Loops</a></li>
+                <li><a href="arrays.html">Array</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </div>
+        <div clas="content">
+        <h1>Arrays</h1>
+        <p>In JavaScript, an array is a special type of object that stores a collection of values, which can be of any data type. JavaScript arrays are zero-indexed, meaning that the first element of an array is at index 0, the second element is at index 1, and so on.</p>
+
+        <p>To create an array in JavaScript, we can use the array literal syntax, which consists of enclosing a comma-separated list of values within square brackets: </p>
+        
+                                         <p id="example"><b> let myArray = [1, 2, 3, "four", true];</b></p>
+
+       <p> We can also create an array using the Array() constructor, which takes one or more arguments that represent the initial elements of the array:</p>
+
+                                        <p id="example"><b> let myArray = new Array(1, 2, 3, "four", true);</b></p>
+      </p>
+        
+        <p>
+        <br> <strong>1.PUSH</strong> - The <b>push()</b> is a built-in method of arrays that adds one or more elements to the end of an array and returns the new length of the array.
+                                            
+                                                                <img id="img" src="M1.png" >
+        <br><strong>2.POP</strong> - The <b>pop()</b> is a built-in method of arrays that removes the last element from an array and returns that element. This method changes the length of the array.
+
+                                                                 <img id="img" src="M2.png">
+
+        <br><strong>3.UNSHIFT</strong> - The <b>unshift()</b> is a built-in method of arrays that adds one or more elements to the beginning of an array and returns the new length of the array.
+
+                                                                <img id="img" src="M3.png" >
+
+        <br><strong>4.SHIFT</strong> - The <b>shift()</b> is a built-in method of arrays that removes the first element from an array and returns that element. This method changes the length of the array.
+
+                                                                <img id="img" src="M4.png" >
+
+
+        <br> In JavaScript, you can also create a <b>multidimensional array</b> by nesting arrays inside one another. The number of nested arrays determines the number of dimension in the array. 
+
+        <br><b> Multidimensional Array - </b> is an array that contains other arrays as its elements, forming a nested structure. Each nested array represents a separate dimension, creating a grid-like or matrix-like structure.
+
+                                                                <img id="img" src="M5.png" >
+
+
+
+        <br>
+        <br>
+        <br>
+
+        <b>Example of an Array: <b>
+        <br>
+        <br>
+        <div class="bttn">
+           <button class="button" onclick="push()"> PUSH</button>
+            <button class="button" onclick="pop()"> POP</button>
+            <button class="button" onclick="shift()"> SHIFT</button>
+            <button class="button" onclick="unshift()"> UNSHIFT</button>
+            <p id = "output"></p><br>
+        </div>
+
+        <section class="multi-arr">
+            <h1 class="multi-tittle">Example of Multidimensional Array:</h1>
+            <div class="multi-arr-container">
+            <div class="inputInfo">
+                <input type="text" id="name" placeholder ="Enter your Name" class="mulit-input">
+                <input type="number" id="age" placeholder ="Enter your Age" class="mulit-input">
+            </div>
+            <div class="btn">
+                <button onclick="add()" class="addBTN">Add</button>
+            </div>
+            <div class="inputedInfo">
+                <ul id="studentsList">
+                </ul>
+            </div>   
+            
+            <div class="button-method">
+                    <button class="btnFunc" onclick="popbutton()">Pop</button>
+                    <button class="btnFunc" onclick="shiftbutton()">Shift</button>
+                    <button class="btnFunc" onclick="pushbutton()">Push</button>
+                    <button class="btnFunc" onclick="unshiftbutton()">Unshift</button>
+            </div>
+        </div>
+        </section>
+<br>
+<footer>
+    <p> Alright Reserved! Developed by Hangela Mae Margallo</p>
+</footer>
+
+</body>
+</html>
